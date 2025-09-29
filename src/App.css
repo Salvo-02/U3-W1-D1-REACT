@@ -10,10 +10,12 @@ Nav div {
   margin-top: 20px;
 }
 p {
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
 }
 span {
-  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
   font-weight: 700;
 }
 Nav img {
@@ -24,10 +26,20 @@ Nav img {
   margin-inline: auto;
 }
 .App button {
-  margin-top: 20px;
+  margin-block: 20px;
   width: 200px;
   background-color: black;
   border-radius: 10px;
   color: white;
-  box-shadow: 5px 5px 10px 0px #000000;
+  box-shadow: 5px 5px 10px 0px grey;
+  font-family: "Times New Roman", Times, serif;
+}
+.divArticle {
+  padding: 5px;
+  margin-inline: 20px;
+  box-shadow: 0px 010px 10px 0px grey;
+}
+.divBtn {
+  display: flex;
+  justify-content: center;
 }
