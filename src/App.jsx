@@ -1,6 +1,7 @@
 import "./App.css";
-import ButtonComponent from "./ButtonComponent";
-import ImageComponent from "./ImageComponent";
+import Article from "./Components/Article";
+import ButtonComponent from "./Components/ButtonComponent";
+import ImageComponent from "./Components/ImageComponent";
 import Nav from "./Nav";
 
 function App() {
@@ -16,20 +17,15 @@ function App() {
           src="https://images.unsplash.com/photo-1606942790567-5783bab8d944?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="carImage"
         />
-        <p>
-          <span>Ford Mustang Fastback 1969 – Muscoli, Eleganza e Anima da Corsa</span>
-          <hr /> La Ford Mustang Fastback del 1969 è una delle versioni più iconiche e desiderate della muscle car americana per eccellenza. Con il suo profilo
-          slanciato e aggressivo, la Fastback incarna perfettamente la fusione tra potenza bruta e design senza tempo. Questo modello si distingue per la sua
-          carrozzeria dal taglio sportivo, con la caratteristica coda spiovente che conferisce all’auto un’impronta da coupé da corsa. Il muso allungato, le
-          doppie prese d’aria sul cofano e i fari anteriori sdoppiati ne esaltano l’estetica decisa, mentre le linee fluide raccontano di un’epoca in cui ogni
-          curva era disegnata per evocare emozione. Sotto il cofano, la Fastback poteva essere equipaggiata con una vasta gamma di motori, dai brillanti V8 302
-          fino ai leggendari 351 Windsor o 428 Cobra Jet, capaci di erogare potenze che fanno battere il cuore a ogni accelerata. Il sound profondo del motore e
-          la risposta pronta al pedale dell’acceleratore completano l’esperienza di guida pura e coinvolgente. All’interno, l’abitacolo è un mix perfetto di
-          sportività e comfort vintage: cruscotto analogico in stile retrò, volante in legno, sedili avvolgenti e dettagli cromati che richiamano
-          l’artigianalità dell’epoca. Questa Mustang Fastback 1969 non è solo un'auto: è un’icona culturale, una leggenda su ruote che continua a far sognare
-          generazioni di appassionati.
-        </p>
-        <ButtonComponent name="Scopri di più" />
+
+        <Article
+          span="Ford Mustang 1969 – L’Icona Americana per Eccellenza"
+          description="La Ford Mustang 1969 rappresenta uno dei massimi esempi di muscle car americane, un perfetto equilibrio tra potenza, stile e libertà su quattro ruote. Questo modello, appartenente alla prima generazione della Mustang, è celebre per il suo design aggressivo e le prestazioni coinvolgenti, che ne hanno fatto un’icona senza tempo.
+Con le sue linee muscolose, il frontale imponente e il profilo filante, la Mustang del ’69 segna un'evoluzione rispetto ai modelli precedenti, introducendo un look più deciso e sportivo. All'interno, l'abitacolo riflette l’anima dell’epoca: essenziale, ma con carattere, pensato per chi vive la strada come un’estensione della propria personalità.
+Sotto il cofano, questa versione è equipaggiata con un motore V8 capace di erogare una potenza travolgente, supportata da un sound inconfondibile che ha fatto battere il cuore a intere generazioni di appassionati.
+Restaurata con cura e mantenuta in condizioni eccellenti, questa Ford Mustang 1969 è molto più di un’auto d’epoca: è un simbolo culturale, un tributo alla libertà e alla passione per la guida."
+        />
+        <ButtonComponent href="https://it.wikipedia.org/wiki/Ford_Mustang" name="Scopri di più" />
       </div>
     </>
   );

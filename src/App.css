@@ -1,9 +1,23 @@
 Nav div {
   background-color: black;
 }
+.ImageComponent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ImageComponent img {
+  margin-top: 20px;
+}
+p {
+  font-size: 15px;
+}
+span {
+  font-size: 20px;
+  font-weight: 700;
+}
 Nav img {
   width: 200px;
-  margin-inline: auto;
 }
 .App img {
   width: 400px;
