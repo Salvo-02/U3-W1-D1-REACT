@@ -1,0 +1,18 @@
+Nav div {
+  background-color: black;
+  width: auto;
+}
+Nav img {
+  width: 200px;
+}
+.App img {
+  width: 400px;
+  margin-inline: auto;
+}
+.App button {
+  margin-top: 20px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px 10px 0px #000000;
+}
